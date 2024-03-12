@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/signup.css" />
+    <title>signup</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <div>
+            <label for="productCode">Product code</label>
+            <input type="text" name="productcode" id="productcode" />
+          </div>
+          <div>
+            <label for="product">Product Name</label>
+            <input type="text" name="product" id="product" />
+          </div>
+          <div>
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+          </div>
+          <div>
+            <label for="prePrice">Pre Price</label>
+            <input type="number" name="prePrice" id="prePrice" />
+          </div>
+          <div class="form-action--button">
+            <input type="submit" value="Submit" />
+          </div>
+        </td>
+        <td>
+          <table class="list" id="storelist">
+            <thead>
+              <th>Product Code</th>
+              <th>Product Name</th>
+              <th>Qty</th>
+              <th>Price</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script src="./asset/signup.js"></script>
+  </body>
+</html>
